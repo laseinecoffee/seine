@@ -1,0 +1,67 @@
+
+
+html{
+    box-sizing: border-box;
+     }
+
+        *,
+        *::before,
+        *::after {
+            box-sizing: inherit;
+        }
+
+        body {
+            background-size: cover;
+            text-align: center;
+            line-height: 45px;
+            padding: 20px 0;
+        }
+
+        h1,
+        h2 {
+            margin: 0;
+        }
+
+        nav>ul {
+            opacity: 0.8;
+            background-color: rgb(125, 140, 125);
+            list-style: none;
+            /* 移除項目符號 */
+            margin: 0;
+            padding: 0;
+        }
+
+        nav a {
+            color: inherit;
+            /* 移除超連結顏色 */
+            display: block;
+            /* 讓 <a> 填滿 <li> */
+            font-size: 1.2rem;
+            padding: 10px;
+            text-decoration: none;
+            /* 移除超連結底線 */
+        }
+
+        /* 滑鼠移到 <a> 時變成深底淺色 */
+        nav li:hover {
+            background-color: rgb(115, 128, 115);
+            color: white;
+        }
+
+        .flex-nav {
+            display: flex;
+            justify-content: center;
+        }
+
+        .inline-block-nav {
+            text-align: center;
+            font-size: 10;
+            /* 移除 <li> 之間的空隙 */
+        }
+
+        .inline-block-nav>li {
+            display: inline-block;
+        }
+    section,footer{
+        background-color: #256845;
+    }

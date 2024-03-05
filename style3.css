@@ -1,0 +1,19 @@
+body{
+    text-align: center;
+    line-height: 45px;
+}
+.from{
+    display:flex;
+    flex-wrap:wrap;
+    gap:0.5rem;
+}
+.name{
+    flex:1 0 10rem;
+}
+.number{
+    flex:1 0 10rem;
+}
+.button{
+    flex:1 0 5rem;
+    background-color:#c0b9a5;
+}
