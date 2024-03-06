@@ -1,0 +1,44 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    background-color: #2e4031;
+    height: 80px;
+    width: 100%;
+    position: fixed;
+}
+
+header ul {
+    position: absolute;
+    right: 5vw;
+    top: 0;
+    line-height: 80px;
+}
+
+header li {
+    display: inline;
+    margin-right: 6vw;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+}
+
+header a:hover {
+    text-decoration: underline;
+}
+
+body {
+    background-size: cover;
+    text-align: center;
+    line-height: 45px;
+    padding: 0px 0;
+}
+
+nav li:hover {
+    background-color: rgb(105, 128, 115);
+    color: white;
+}
